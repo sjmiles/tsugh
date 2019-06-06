@@ -1,0 +1,26 @@
+ {
+  "exclude": [
+    "build/**/*",
+  ],
+  "compilerOptions": {
+    "outDir": "build",
+    "declaration": true,
+    "experimentalDecorators": true,
+    "incremental": true,
+    "allowSyntheticDefaultImports": true,
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "alwaysStrict": true,
+    "esModuleInterop": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "module": "es2015",
+    "moduleResolution": "Node",
+    "strictBindCallApply": true,
+    "strictFunctionTypes": true,
+    "allowJs": false,
+    "sourceMap": true,
+    "target": "ES2018",
+    "lib": ["es2018", "dom"]
+  }
+}
